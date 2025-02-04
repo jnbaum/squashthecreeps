@@ -4,3 +4,5 @@ res://player.gd
 res://mob.gd
 res://mob.tscn
 res://main.gd
+res://score_label.gd
+res://music_player.tscn

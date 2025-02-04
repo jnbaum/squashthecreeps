@@ -1,5 +1,7 @@
 extends CharacterBody3D
 
+signal hit
+
 # How fast the player moves in meters per second.
 @export var speed = 14
 # The downward acceleration when in the air, in meters per second squared.
@@ -19,6 +21,8 @@ var target_velocity = Vector3.ZERO
 
 func _physics_process(delta):
 	var direction = Vector3.ZERO
+
+
 
 	if Input.is_action_pressed("move_right"):
 		direction.x += 1
@@ -44,6 +48,12 @@ func _physics_process(delta):
 	# Moving the Character
 	velocity = target_velocity
 	
+	if direction != Vector3.ZERO:
+		#...
+		$AnimationPlayer.speed_scale = 4
+	else:
+		$AnimationPlayer.speed_scale = 1
+	
 	if is_on_floor() and Input.is_action_just_pressed("jump"):
 		target_velocity.y = jump_impulse
 	
@@ -68,3 +78,12 @@ func _physics_process(delta):
 				target_velocity.y = bounce_impulse
 				# Prevent further duplicate calls.
 				break
+	#...
+	$Pivot.rotation.x = PI / 6 * velocity.y / jump_impulse
+
+func die():
+	hit.emit()
+	queue_free()
+
+func _on_mob_detector_body_entered(body: Node3D) -> void:
+	die()
