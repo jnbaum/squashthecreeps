@@ -13,3 +13,5 @@ func _process(delta: float) -> void:
 func _on_mob_squashed():
 	score += 1
 	text = "Score: %s" % score	
+
+	

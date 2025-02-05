@@ -2,6 +2,9 @@ extends CharacterBody3D
 
 signal hit
 
+signal health_changed(health)
+
+
 # How fast the player moves in meters per second.
 @export var speed = 14
 # The downward acceleration when in the air, in meters per second squared.
@@ -18,6 +21,7 @@ signal hit
 
 var target_velocity = Vector3.ZERO
 
+var health = 3
 
 func _physics_process(delta):
 	var direction = Vector3.ZERO
@@ -82,8 +86,18 @@ func _physics_process(delta):
 	$Pivot.rotation.x = PI / 6 * velocity.y / jump_impulse
 
 func die():
-	hit.emit()
+	#hit.emit()
 	queue_free()
 
 func _on_mob_detector_body_entered(body: Node3D) -> void:
-	die()
+	
+	hit.emit()
+	
+	#WRITE HEALTH SCRIPT HERE
+	health -=1
+	health_changed.emit(health)
+	if health <= 0:
+		die()
+
+	
+	

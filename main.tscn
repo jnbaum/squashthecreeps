@@ -2,9 +2,9 @@
 
 [ext_resource type="PackedScene" uid="uid://cdmmfmasxgdu6" path="res://player.tscn" id="1_aarh5"]
 [ext_resource type="Script" path="res://main.gd" id="1_yhrjo"]
-[ext_resource type="PackedScene" uid="uid://b8huxbmha2c16" path="res://mob.tscn" id="2_t2p8y"]
 [ext_resource type="FontFile" uid="uid://df6e3uub7bawf" path="res://fonts/Montserrat-Medium.ttf" id="4_yqbel"]
 [ext_resource type="Script" path="res://score_label.gd" id="5_bfsek"]
+[ext_resource type="Texture2D" uid="uid://dcjh6adqrkii7" path="res://art/heart.png" id="6_agg1m"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_3hh1i"]
 size = Vector3(60, 2, 60)
@@ -31,7 +31,6 @@ default_font_size = 22
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yhrjo")
-mob_scene = ExtResource("2_t2p8y")
 
 [node name="Ground" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
@@ -130,6 +129,55 @@ grow_horizontal = 2
 grow_vertical = 2
 text = "Press Enter to Retry
 "
+
+[node name="Heart5" type="TextureRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 429.0
+offset_top = 8.0
+offset_right = 1189.0
+offset_bottom = 721.0
+scale = Vector2(0.0720189, 0.0720189)
+texture = ExtResource("6_agg1m")
+
+[node name="Heart4" type="TextureRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 485.0
+offset_top = 8.0
+offset_right = 1245.0
+offset_bottom = 721.0
+scale = Vector2(0.0721121, 0.0721121)
+texture = ExtResource("6_agg1m")
+
+[node name="Heart3" type="TextureRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 8.0
+offset_right = 1304.0
+offset_bottom = 721.0
+scale = Vector2(0.0700386, 0.0700386)
+texture = ExtResource("6_agg1m")
+
+[node name="Heart2" type="TextureRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 600.0
+offset_top = 8.0
+offset_right = 1360.0
+offset_bottom = 721.0
+scale = Vector2(0.069766, 0.069766)
+texture = ExtResource("6_agg1m")
+
+[node name="Heart1" type="TextureRect" parent="UserInterface"]
+layout_mode = 0
+offset_left = 656.0
+offset_top = 8.0
+offset_right = 1416.0
+offset_bottom = 721.0
+scale = Vector2(0.0720655, 0.0720655)
+texture = ExtResource("6_agg1m")
+
+[node name="Mob2Timer" type="Timer" parent="."]
+wait_time = 0.5
+autostart = true
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]

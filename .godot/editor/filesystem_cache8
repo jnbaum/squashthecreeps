@@ -1,19 +1,111 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1738556380
+::res://::1738719491
 default_bus_layout.tres::AudioBusLayout::-1::1738554570::0::1::::<><>::
 default_env.tres::Environment::-1::1738554570::0::1::::<><>::
 icon.png::CompressedTexture2D::18351564647437994::1738556380::1738556492::1::::<><>::
-main.tscn::PackedScene::6375131672223560267::1738555352::0::1::::<><>::
+main.tscn::PackedScene::6375131672223560267::1738719490::0::1::::<><>::uid://cdmmfmasxgdu6::::res://player.tscn<>res://main.gd<>uid://b8huxbmha2c16::::res://mob.tscn<>uid://df6e3uub7bawf::::res://fonts/Montserrat-Medium.ttf<>res://score_label.gd<>uid://dcjh6adqrkii7::::res://art/heart.png
 README.md::TextFile::-1::1738556380::0::1::::<><>::
-::res://art/::1738556380
+player.tscn::PackedScene::5008918595360753715::1738719490::0::1::::<><>::uid://dp81877i50hs1::::res://art/player.glb<>res://player.gd
+player.gd::GDScript::-1::1738718844::0::1::::<>CharacterBody3D<>::
+mob.gd::GDScript::-1::1738710238::0::1::::<>CharacterBody3D<>::
+mob.tscn::PackedScene::4718358652521845587::1738719490::0::1::::<><>::res://mob.gd<>uid://dd6oeoaraf7jx::::res://art/mob.glb
+main.gd::GDScript::-1::1738718960::0::1::::<>Node<>::
+music_player.tscn::PackedScene::7054182080154694938::1738719491::0::1::::<><>::uid://dou7slqxn7hco::::res://art/House In a Forest Loop.ogg
+score_label.gd::GDScript::-1::1738719490::0::1::::<>Label<>::
+::res://art/::1738721474
 body.material::StandardMaterial3D::-1::1738554463::0::1::::<><>::
 eye.material::StandardMaterial3D::-1::1738554463::0::1::::<><>::
+godot_plush_albedo.png::CompressedTexture2D::5636458140105707511::1738721474::1738721534::1::::<><>::
+godot_plush_model.glb::PackedScene::6402240931623115037::1738721474::1738721534::1::::<><>::
+heart.png::CompressedTexture2D::7318699522086823280::1738714521::1738714593::1::::<><>::
 House In a Forest Loop.ogg::AudioStreamOggVorbis::8185169108689142302::1738556380::1738556492::1::::<><>::
 mob.glb::PackedScene::7434682209543141521::1738556380::1738556492::1::::<><>::
 mob_body.material::StandardMaterial3D::-1::1738554463::0::1::::<><>::
 mob_eye.material::StandardMaterial3D::-1::1738554463::0::1::::<><>::
 player.glb::PackedScene::8281858475130061890::1738556380::1738556492::1::::<><>::
 pupil.material::StandardMaterial3D::-1::1738554463::0::1::::<><>::
-::res://fonts/::1738556380
+::res://art/item pack(16 by 16)/::1738721185
+readme.txt::TextFile::-1::1738721141::0::1::::<><>::
+::res://art/item pack(16 by 16)/Coin/::1738721267
+474aac53-90ea-40b7-8c79-3593acedb60a-0.png::CompressedTexture2D::2677714675057794912::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-1.png::CompressedTexture2D::8838325598253259490::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-2.png::CompressedTexture2D::8557831848489243159::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-3.png::CompressedTexture2D::1548635786430964971::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-4.png::CompressedTexture2D::4507271702901411788::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-5.png::CompressedTexture2D::3013524944376734263::1738721141::1738721267::1::::<><>::
+474aac53-90ea-40b7-8c79-3593acedb60a-6.png::CompressedTexture2D::8105349151302382101::1738721141::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Gemstone1/::1738721267
+195d403c-542d-4a34-9f0d-7b7b12dbef20-0.png::CompressedTexture2D::7605276262856981468::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-1.png::CompressedTexture2D::1032519840802349323::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-2.png::CompressedTexture2D::4344255738789782757::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-3.png::CompressedTexture2D::6953846430237179940::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-4.png::CompressedTexture2D::8050192128189377137::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-5.png::CompressedTexture2D::4339828268106970926::1738721141::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-6.png::CompressedTexture2D::6273689601458195455::1738721142::1738721267::1::::<><>::
+195d403c-542d-4a34-9f0d-7b7b12dbef20-7.png::CompressedTexture2D::6269638596395332241::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Gemstone2/::1738721267
+01761f51-8e36-4cea-b085-64590635b9cf-0.png::CompressedTexture2D::2495112663326291705::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-1.png::CompressedTexture2D::415206946307690691::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-2.png::CompressedTexture2D::2588505045188494004::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-3.png::CompressedTexture2D::3441556945190663864::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-4.png::CompressedTexture2D::6355566536628427924::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-5.png::CompressedTexture2D::5054332743081449855::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-6.png::CompressedTexture2D::2358593990658911774::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-7.png::CompressedTexture2D::8104733800755256579::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-8.png::CompressedTexture2D::2024239735055134636::1738721142::1738721267::1::::<><>::
+01761f51-8e36-4cea-b085-64590635b9cf-9.png::CompressedTexture2D::6742315636372270665::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Heart/::1738721267
+2ed14d4d-cdaa-4d44-ab8c-03ccb3193552-0.png::CompressedTexture2D::7746556015114021299::1738721142::1738721267::1::::<><>::
+2ed14d4d-cdaa-4d44-ab8c-03ccb3193552-1.png::CompressedTexture2D::7913305464867205332::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Key1/::1738721267
+a33d661d-56a8-4d70-947d-35045b112699-0.png::CompressedTexture2D::773037363615525892::1738721142::1738721267::1::::<><>::
+a33d661d-56a8-4d70-947d-35045b112699-1.png::CompressedTexture2D::4431861838095375197::1738721142::1738721267::1::::<><>::
+a33d661d-56a8-4d70-947d-35045b112699-2.png::CompressedTexture2D::3473119453481225807::1738721142::1738721267::1::::<><>::
+a33d661d-56a8-4d70-947d-35045b112699-3.png::CompressedTexture2D::3669121145965205495::1738721142::1738721267::1::::<><>::
+a33d661d-56a8-4d70-947d-35045b112699-4.png::CompressedTexture2D::335818865350326884::1738721142::1738721267::1::::<><>::
+a33d661d-56a8-4d70-947d-35045b112699-5.png::CompressedTexture2D::8109532199452956458::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Key2/::1738721267
+36acd286-858a-4d28-be95-c946fd7cc095-0.png::CompressedTexture2D::3831038294844810184::1738721142::1738721267::1::::<><>::
+36acd286-858a-4d28-be95-c946fd7cc095-1.png::CompressedTexture2D::129886711082902989::1738721142::1738721267::1::::<><>::
+36acd286-858a-4d28-be95-c946fd7cc095-2.png::CompressedTexture2D::7340495874231533914::1738721142::1738721267::1::::<><>::
+36acd286-858a-4d28-be95-c946fd7cc095-3.png::CompressedTexture2D::2146269884375707667::1738721142::1738721267::1::::<><>::
+36acd286-858a-4d28-be95-c946fd7cc095-4.png::CompressedTexture2D::7374888675871030682::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Mushroom/::1738721267
+f6192a39-01d0-448b-85d3-e475e36264b5-0.png::CompressedTexture2D::9010608768156709128::1738721142::1738721267::1::::<><>::
+f6192a39-01d0-448b-85d3-e475e36264b5-1.png::CompressedTexture2D::7988946719334217799::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Mysterious object/::1738721267
+093ca9bd-37da-4356-8739-14bba1e10b18-0.png::CompressedTexture2D::1989695717757446645::1738721142::1738721267::1::::<><>::
+093ca9bd-37da-4356-8739-14bba1e10b18-1.png::CompressedTexture2D::4015459055281522281::1738721142::1738721267::1::::<><>::
+093ca9bd-37da-4356-8739-14bba1e10b18-2.png::CompressedTexture2D::431117362234483767::1738721142::1738721267::1::::<><>::
+093ca9bd-37da-4356-8739-14bba1e10b18-3.png::CompressedTexture2D::2705902185805203776::1738721142::1738721267::1::::<><>::
+093ca9bd-37da-4356-8739-14bba1e10b18-4.png::CompressedTexture2D::8848509128092306412::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion1/::1738721267
+b9d5fe5f-e0cf-451c-a68b-eabaa8c957cc-0.png::CompressedTexture2D::140274762265971495::1738721142::1738721267::1::::<><>::
+b9d5fe5f-e0cf-451c-a68b-eabaa8c957cc-1.png::CompressedTexture2D::6239314084831562491::1738721142::1738721267::1::::<><>::
+b9d5fe5f-e0cf-451c-a68b-eabaa8c957cc-2.png::CompressedTexture2D::459370569756509667::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion2/::1738721267
+8023b55b-1db9-4634-b105-7a157aa7ffe7-0.png::CompressedTexture2D::1135143466718904321::1738721142::1738721267::1::::<><>::
+8023b55b-1db9-4634-b105-7a157aa7ffe7-1.png::CompressedTexture2D::7830318683726243256::1738721142::1738721267::1::::<><>::
+8023b55b-1db9-4634-b105-7a157aa7ffe7-2.png::CompressedTexture2D::1531043976238550039::1738721142::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion3/::1738721267
+3b39bfa4-a54d-4aaa-b35e-c85915df12d3-0.png::CompressedTexture2D::3904783914948694817::1738721143::1738721267::1::::<><>::
+3b39bfa4-a54d-4aaa-b35e-c85915df12d3-1.png::CompressedTexture2D::6617505693987374790::1738721143::1738721267::1::::<><>::
+3b39bfa4-a54d-4aaa-b35e-c85915df12d3-2.png::CompressedTexture2D::7156804154645868140::1738721143::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion4/::1738721267
+463c5d77-b1a1-4699-bedb-16e7615f037d-0.png::CompressedTexture2D::1435684188212317306::1738721143::1738721267::1::::<><>::
+463c5d77-b1a1-4699-bedb-16e7615f037d-1.png::CompressedTexture2D::1320920095955656247::1738721143::1738721267::1::::<><>::
+463c5d77-b1a1-4699-bedb-16e7615f037d-2.png::CompressedTexture2D::5207021691873951197::1738721143::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion5/::1738721267
+992158e6-214f-431a-a80b-51469cb0c9ea-0.png::CompressedTexture2D::943782700472169534::1738721143::1738721267::1::::<><>::
+992158e6-214f-431a-a80b-51469cb0c9ea-1.png::CompressedTexture2D::2019720135884753235::1738721143::1738721267::1::::<><>::
+992158e6-214f-431a-a80b-51469cb0c9ea-2.png::CompressedTexture2D::5075435133367690429::1738721143::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Potion6/::1738721267
+bbb1dfb4-678c-4d69-9ad1-66897600274a-0.png::CompressedTexture2D::5159937100457968732::1738721143::1738721267::1::::<><>::
+bbb1dfb4-678c-4d69-9ad1-66897600274a-1.png::CompressedTexture2D::8425812371865003403::1738721143::1738721267::1::::<><>::
+bbb1dfb4-678c-4d69-9ad1-66897600274a-2.png::CompressedTexture2D::2776163371242235491::1738721143::1738721267::1::::<><>::
+::res://art/item pack(16 by 16)/Skull/::1738721267
+dded028e-e359-4ef7-a9fe-b84a75b51fdd-0.png::CompressedTexture2D::8927957603426705370::1738721143::1738721267::1::::<><>::
+dded028e-e359-4ef7-a9fe-b84a75b51fdd-1.png::CompressedTexture2D::8088203818239649304::1738721143::1738721267::1::::<><>::
+::res://fonts/::1738556492
 LICENSE.txt::TextFile::-1::1738554463::0::1::::<><>::
 Montserrat-Medium.ttf::FontFile::7574495931297050521::1738556380::1738556492::1::::<><>::
